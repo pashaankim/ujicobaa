@@ -138,7 +138,7 @@ export default function SmartPhysicsApp() {
                     <label className="block text-xs font-semibold text-slate-600 mb-1">Percepatan (a)</label>
                     <div className="relative">
                       <input type="number" className="w-full border p-2 rounded bg-slate-50/50" value={percepatanNewton} onChange={(e) => setPercepatanNewton(e.target.value)} />
-                      <span className="absolute right-3 top-2 text-sm text-slate-400">m/s²</span>
+                      <span className="absolute right-3 top-2 text-sm text-slate-400">m/s^2</span>
                     </div>
                   </div>
                 </div>
