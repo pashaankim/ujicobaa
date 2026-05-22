@@ -148,7 +148,7 @@ export default function SmartPhysicsApp() {
                     <span className="text-xs font-bold text-emerald-700 uppercase tracking-wider">Hasil Akhir</span>
                     <p className="text-3xl font-black text-emerald-900">{gayaHasil} N</p>
                     <div className="text-xs text-slate-600 bg-white/80 p-2 rounded border border-emerald-50 font-mono space-y-1">
-                      <p className="font-bold">✍️ Langkah Penyelesaian:</p>
+                      <p className="font-bold"> Langkah Penyelesaian:</p>
                       <p>1. <InlineMath math="F = m \cdot a" /></p>
                       <p>2. <InlineMath math={`F = ${massaNewton} \text{ kg} \cdot ${percepatanNewton} \text{ m/s}^2`} /></p>
                       <p>3. <InlineMath math={`F = ${gayaHasil} \text{ Newton (N)}`} /></p>
