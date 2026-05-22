@@ -69,7 +69,7 @@ export default function SmartPhysicsApp() {
       {/* HEADER & HERO */}
       <header className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12 px-4 shadow-md">
         <div className="max-w-4xl mx-auto text-center space-y-4">
-          <h1 className="text-4xl font-extrabold tracking-tight">⚛️ Smart Physics Calculator</h1>
+          <h1 className="text-4xl font-extrabold tracking-tight"> Smart Physics Calculator</h1>
           <p className="text-blue-100 text-lg">Bukan cuma menghitung, tapi juga visualisasi konsep dan langkah belajar.</p>
           
           {/* Search Bar Mockup */}
