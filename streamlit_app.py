@@ -2,11 +2,10 @@ import streamlit as st
 
 st.title("🎈 uji coba kalkulator")
 'use client';
-
-import { useState, useEffect } from 'react';
-import { evaluate } from 'mathjs';
-import 'katex/dist/katex.min.css';
-import { InlineMath, BlockMath } from 'react-katex';
+  import { useState, useEffect } from 'react';
+  import { evaluate } from 'mathjs';
+  import 'katex/dist/katex.min.css';
+  import { InlineMath, BlockMath } from 'react-katex';
 
 export default function SmartPhysicsApp() {
   const [activeTab, setActiveTab] = useState('kalkulator');
